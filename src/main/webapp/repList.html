@@ -19,7 +19,7 @@
 
         // Загрузка списка при загрузке страницы
         const xhr = new XMLHttpRequest();
-        xhr.open('GET', 'http://localhost:8081/demo_war_exploded/car', true);
+        xhr.open('GET', 'http://localhost:8081/demo_war_exploded/rep_json2', true);
         xhr.onload = function () {
             if (xhr.status === 200) {
                 const rep = JSON.parse(xhr.responseText);
